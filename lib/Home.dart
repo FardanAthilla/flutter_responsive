@@ -14,16 +14,16 @@ class HomePage extends GetResponsiveView {
 
   @override
   Widget phone() {
-    return const HomePhone();
+    return HomePhone();
   }
 
   @override
   Widget tablet() {
-    return const HomeTablet();
+    return HomeTablet();
   }
 
   @override
   Widget desktop() {
-    return const HomeDesktop();
+    return HomeDesktop();
   }
 }
